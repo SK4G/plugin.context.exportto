@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Paths">
+		<setting label="Movie Export Path" id="moviepath" default="special://home/Movies/" type="folder"/>
+		<setting label="Show Export Path" id="showpath" default="special://home/TV/" type="folder"/>
+	</category>
+</settings>
