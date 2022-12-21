@@ -29,7 +29,7 @@ File output patterns are as follows:
   
     Movie Title Released in 2002 will format as MOVIEPATH/Movie.Title.2002.strm
     
-  Ampersand '&' is replaced with lowercase 'and', regex used to remove Non Alphanumeric and Ascii characters.
+  Ampersand '&' is replaced with lowercase 'and', regex used to remove Non-Alphanumeric characters.
   
   Spaces are replaced with periods.
   
