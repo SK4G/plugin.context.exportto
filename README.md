@@ -1,5 +1,7 @@
 # plugin.context.exportto
 
+Addon is no longer supported, no updates will be available, left here for archival purposes.
+
 Export video items in Kodi Addons to library as .strm files.
 
 Utilizes Kodi's VFS so should support any path Kodi can write to but has only been tested on local and smb://
