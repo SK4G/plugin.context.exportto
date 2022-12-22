@@ -1,6 +1,8 @@
 # plugin.context.exportto
 
-# Addon is no longer supported, no updates will be available, left here for archival purposes.
+# Addon is no longer supported.
+# No updates will be available.
+# Here for archival purposes only.
 
 Export video items in Kodi Addons to library as .strm files.
 
