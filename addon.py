@@ -12,6 +12,8 @@ import json
 
 moviepath=xbmcaddon.Addon().getSetting("moviepath")
 showpath=xbmcaddon.Addon().getSetting("showpath")
+# moviepath="special://userdata/library/Movies/"
+# showpath="special://userdata/library/TV/"
 
 def cleanstr(instr):
     instr=instr.replace("&","and")
@@ -52,8 +54,9 @@ def listshow(playpath):
     xbmcgui.Dialog().notification("Export", "{} exported {} seasons".format(stitle,seacnt))
 
 def exportep(showtitle,season,ep,title,playpath):
-        
-        showdest="{}{}".format(showpath,showtitle)
+
+        showfolder = showtitle.replace('.', ' ')
+        showdest="{}{} ({})/Season {}".format(showpath,showfolder,infotag.getYear(),season)
         if not xbmcvfs.exists(showdest):
             xbmcvfs.mkdirs(showdest)
         

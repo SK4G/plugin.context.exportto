@@ -1,7 +1,5 @@
 # plugin.context.exportto
 
-# Addon is no longer supported. No updates will be available.
-
 Export video items in Kodi Addons to library as .strm files.
 
 Utilizes Kodi's VFS so should support any path Kodi can write to but has only been tested on local and smb://
@@ -10,7 +8,17 @@ Usage:
   Right click on a TV Show or Movie item within a video plugin, select 'Export to Library'
   A file will be written in the TV or Movie path defined in config depending on Video Type
   
-    Defaults to special://home which is Kodi's data folder
+Defaults to:
+
+    special://userdata/library
+
+Add the following paths as Kodi media resources.
+
+    special://userdata/library/Movies
+    special://userdata/library/TV
+   
+   Add the following paths as Kodi media resources.
+    special://userdata/library/Movies
    
    A convenience item was added to the context menu labeled "Update Library" which does what it says, asks Kodi to update the video library.
    
